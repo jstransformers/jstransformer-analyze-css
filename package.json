@@ -1,0 +1,31 @@
+{
+  "name": "jstransformer-analyze-css",
+  "version": "0.0.1",
+  "description": "AnalyzeCSS support for JSTransformers.",
+  "keywords": [
+    "jstransformer"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "test-jstransformer": "^1.0.0"
+  },
+  "scripts": {
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-analyze-css.git"
+  },
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "analyze-css": "^0.10.0",
+    "bluebird": "^2.9.34"
+  }
+}
