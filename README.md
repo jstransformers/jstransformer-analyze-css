@@ -14,10 +14,12 @@
 ## API
 
 ```js
-var analyze-css = require('jstransformer')(require('jstransformer-analyze-css'))
+var analyzer = require('jstransformer')(require('jstransformer-analyze-css'))
 
-analyze-css.renderAsync('.foo {margin: 0 !important}').body
-//=> ''
+analyzer.renderAsync('.foo {margin: 0 !important}')
+.then(function (stats) {
+  //=> JSON object as https://github.com/macbre/analyze-css#results
+})
 ```
 
 ## License
