@@ -12,7 +12,7 @@ exports.renderAsync = function (str, options) {
     options = options && typeof options === 'object' ? options : {};
     new AnalyzeCSS(str, options, function (err, results) {
       if (err) return reject(err);
-      resolve(results);
+      resolve(JSON.stringify(results, null, 2));
     });
   });
 };
