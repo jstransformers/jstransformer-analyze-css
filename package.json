@@ -26,6 +26,6 @@
   "license": "MIT",
   "dependencies": {
     "analyze-css": "^0.10.0",
-    "bluebird": "^2.9.34"
+    "bluebird": "^3.0.3"
   }
 }
