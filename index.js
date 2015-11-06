@@ -4,7 +4,6 @@ var Bluebird = require('bluebird');
 var AnalyzeCSS = require('analyze-css');
 
 exports.name = 'analyze-css';
-exports.inputFormats = ['analyze-css', 'css', 'scss', 'sass'];
 exports.outputFormat = 'json';
 
 exports.renderAsync = function (str, options) {

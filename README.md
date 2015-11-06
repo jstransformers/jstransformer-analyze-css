@@ -16,7 +16,7 @@
 ```js
 var analyzer = require('jstransformer')(require('jstransformer-analyze-css'))
 
-analyzer.renderAsync('.foo {margin: 0 !important}')
+analyzer.renderAsync('.bar {margin: 0 !important}')
 .then(function (stats) {
   //=> JSON object as https://github.com/macbre/analyze-css#results
 })
