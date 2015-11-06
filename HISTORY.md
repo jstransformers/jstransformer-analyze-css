@@ -1,5 +1,9 @@
 # Changelog
 
-## v0.0.1: 2015-xx-xx
+## v0.1.0: 2015-11-06
+
+- Update dependencies
+
+## v0.0.1: 2015-08-04
 
 - Initial release
