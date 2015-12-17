@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.0: xxxx-xx-xx
+
+- Switched from `bluebird` to `promise`
+
 ## v0.1.2: 2015-11-06
 
 - Fix release
