@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "analyze-css": "^0.10.2",
-    "bluebird": "^3.0.5"
+    "promise": "^7.0.4"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"
