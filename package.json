@@ -9,7 +9,7 @@
     "index.js"
   ],
   "dependencies": {
-    "analyze-css": "^0.10.2",
+    "analyze-css": "^0.11.0",
     "promise": "^7.0.4"
   },
   "devDependencies": {
