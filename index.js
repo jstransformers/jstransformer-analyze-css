@@ -10,8 +10,11 @@ exports.renderAsync = function (str, options) {
   return new Promise(function (resolve, reject) {
     options = options && typeof options === 'object' ? options : {};
     new AnalyzeCSS(str, options, function (err, results) {
-      if (err) return reject(err);
-      resolve(JSON.stringify(results, null, 2));
+      if (err) {
+        return reject(err);
+      }
+      var output = JSON.stringify(results, null, 2);
+      resolve(output);
     });
   });
 };

@@ -1,8 +1,9 @@
 # Changelog
 
-## v0.2.0: xxxx-xx-xx
+## v0.2.0: 2016-06-06
 
 - Switched from `bluebird` to `promise`
+- Updated to `analyze-css@0.12.0`
 
 ## v0.1.2: 2015-11-06
 

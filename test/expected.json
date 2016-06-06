@@ -1,5 +1,5 @@
 {
-  "generator": "analyze-css v0.10.2",
+  "generator": "analyze-css v0.12.0",
   "metrics": {
     "base64Length": 0,
     "redundantBodySelectors": 0,
@@ -17,6 +17,7 @@
     "imports": 0,
     "importants": 1,
     "mediaQueries": 0,
+    "notMinified": 0,
     "multiClassesSelectors": 0,
     "parsingErrors": 0,
     "oldPropertyPrefixes": 0,
