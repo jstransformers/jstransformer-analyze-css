@@ -1,5 +1,7 @@
 # jstransformer-analyze-css
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-analyze-css.svg)](https://greenkeeper.io/)
+
 [AnalyzeCSS](https://github.com/macbre/analyze-css) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-analyze-css/master.svg)](https://travis-ci.org/jstransformers/jstransformer-analyze-css)
