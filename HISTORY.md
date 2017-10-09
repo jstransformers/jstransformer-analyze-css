@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.3.0: 2017-10-09
+
+- Update Boilerplate
+- Updated to `analyze-css@0.12.5`
+
 ## v0.2.0: 2016-06-06
 
 - Switched from `bluebird` to `promise`
