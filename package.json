@@ -11,9 +11,6 @@
   "files": [
     "index.js"
   ],
-  "dependencies": {
-    "analyze-css": "0.12.5"
-  },
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
     "xo": "*"
