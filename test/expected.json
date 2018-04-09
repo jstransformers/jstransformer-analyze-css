@@ -1,5 +1,5 @@
 {
-  "generator": "analyze-css v0.12.1",
+  "generator": "analyze-css v0.12.5",
   "metrics": {
     "base64Length": 0,
     "redundantBodySelectors": 0,
@@ -8,7 +8,6 @@
     "comments": 0,
     "commentsLength": 0,
     "complexSelectors": 0,
-    "complexSelectorsByAttribute": 0,
     "duplicatedSelectors": 0,
     "duplicatedProperties": 0,
     "emptyRules": 0,
@@ -36,8 +35,7 @@
     "selectorsById": 0,
     "selectorsByPseudo": 0,
     "selectorsByTag": 0,
-    "universalSelectors": 0,
-    "length": 28,
+    "length": 27,
     "rules": 1,
     "declarations": 1
   },
@@ -59,4 +57,3 @@
     ]
   }
 }
-

@@ -1,6 +1,9 @@
 {
+  "dependencies": {
+    "analyze-css": "0.12.5"
+  },
   "name": "jstransformer-analyze-css",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "AnalyzeCSS support for JSTransformers.",
   "keywords": [
     "jstransformer"
@@ -9,17 +12,16 @@
     "index.js"
   ],
   "dependencies": {
-    "analyze-css": "0.12.4",
-    "promise": "^7.0.4"
+    "analyze-css": "0.12.5"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.18.1"
+    "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer",
-    "posttest": "xo --space --no-semicolon index.js"
+    "posttest": "xo --space=2 --no-semicolon index.js"
   },
   "engines": {
     "node": ">=4"
