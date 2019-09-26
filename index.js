@@ -13,6 +13,7 @@ exports.renderAsync = function (str, options) {
       if (err) {
         return reject(err)
       }
+
       const output = JSON.stringify(results, null, 2)
       resolve(output)
     })
