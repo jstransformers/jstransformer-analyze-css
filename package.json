@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "analyze-css": "0.12.5"
+    "analyze-css": "0.12.9"
   },
   "name": "jstransformer-analyze-css",
   "version": "0.3.0",
